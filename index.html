@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teyana Limited | Motion in Industry</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            background: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background: #005baa;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        header p {
+            font-style: italic;
+            margin-top: 5px;
+        }
+        nav {
+            background: #333;
+            display: flex;
+            justify-content: center;
+        }
+        nav a {
+            color: #fff;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 14px;
+        }
+        nav a:hover {
+            background: #555;
+        }
+        .container {
+            padding: 20px;
+        }
+        .products {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 20px;
+        }
+        .product-item {
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+        .contact-form {
+            background: #fff;
+            padding: 20px;
+            margin-top: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        button {
+            background: #005baa;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            border-radius: 4px;
+        }
+        button:hover {
+            background: #003f7d;
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 15px 0;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Teyana Limited</h1>
+        <p>Transmission, Conveying & Lifting Products | "Motion in Industry"</p>
+    </header>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#products">Products</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="container" id="home">
+        <h2>Welcome to Teyana Limited</h2>
+        <p>At Teyana Limited, we provide high-quality transmission, conveying, and lifting products that drive industries forward. With a dedication to excellent service and reliable solutions, we aim to meet and exceed the needs of all our customers across various sectors.</p>
+    </div>
+
+    <div class="container" id="products">
+        <h2>Our Products</h2>
+        <div class="products">
+            <div class="product-item">Conveyor Belts</div>
+            <div class="product-item">Flat Transmission Belts</div>
+            <div class="product-item">Timing Belts</div>
+            <div class="product-item">Polyvee Belts</div>
+            <div class="product-item">Roller Chains</div>
+            <div class="product-item">Plastic Table Top Chains</div>
+            <div class="product-item">Vee Belts</div>
+            <div class="product-item">Vee Belt Pulleys</div>
+            <div class="product-item">Chain Slings</div>
+            <div class="product-item">Polyester Lifting Slings</div>
+            <div class="product-item">Geared Motors</div>
+        </div>
+    </div>
+
+    <div class="container" id="contact">
+        <h2>Contact Us</h2>
+        <p><strong>Location:</strong> [Insert Address]</p>
+        <p><strong>Phone:</strong> [Insert Phone Number]</p>
+        <p><strong>Email:</strong> [Insert Email Address]</p>
+
+        <div class="contact-form">
+            <h3>Send Us a Message</h3>
+            <form action="#" method="post">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Teyana Limited. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
